@@ -1,0 +1,1 @@
+{"name":"reseau-gen","version":"1.0.0","scripts":{"gén":"ts-node --transpile-only -r tsconfig-paths/register -P tsconfig.json src/principale.ts"},"devDependencies":{"@types/node":"^25.7.0","ts-node":"^10.9.2","tsconfig-paths":"^4.2.0","typescript":"^6.0.3"}}

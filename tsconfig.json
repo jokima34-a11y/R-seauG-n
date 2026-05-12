@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "rootDir": "src",
+        "outDir" : "out",
+        "module": "CommonJS",
+        "target": "ESNext",
+        "lib": ["ESNext"],
+        "types": ["node"],
+        "skipLibCheck": true,
+        "ignoreDeprecations": "6.0",
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "baseUrl": ".", 
+        "paths": {
+            "*": ["src/*", "node_modules/@rbxts/*"]
+        }
+    }
+}
